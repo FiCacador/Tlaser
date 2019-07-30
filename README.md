@@ -1,14 +1,34 @@
 # Tlaser
 
-Tlaser is a laser engraver designed for proof of concept of a new motion system, coreXY cantilever. It's called Tlaser because this motion system, and thus this machine, is shaped like a T.  
-Main features:
+Tlaser is a laser engraver designed as proof of concept of a new motion system, coreXY cantilever. It's called Tlaser because this motion system, and thus this machine, is shaped like a T.  
+  
+<img align="right" height="200" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser%20logo.png" />
 
-- CoreXY cantilever
-- 5500mW blue laser
-- 315mm x 205mm engraving area
-- Linear guide rails
-- Adjustable height at each corner
-- 3D printed
+### Main features:
+
+- **CoreXY cantilever**
+- **5500mW blue laser**
+- **315mm x 205mm engraving area**
+- **Linear guide rails**
+- **Adjustable height at each corner**
+- **3D printed**  
+
+<p float="center">
+  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser_FreeCAD.png" />
+  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser_0.JPG" />
+</p>
+
+## CoreXY cantilever
+
+Tlaser was developed to validate and demonstrate a new motion system, which the author named  *CoreXY cantilever*.  
+CoreXY cantilever has the same kinematics as [CoreXY](https://corexy.com/theory.html), so it is easy to configure in existing firmware like Grbl or Marlin. If the motors rotate to the same directions, the head travels along the X axis. If the motors rotate to opposite directions, the head travels along the Y axis.  
+This mechanism has two belts, one over another, each on a circuit shaped like a T. Both circuits have pulleys at the middle on both sides and at the end of the cantilever.  
+The upper belt is driven by the motor at the right end, has a pulley on the left end and is locked to the left side of the carrier. The lower is symmetric, motor on the left, pulley on the right, locked to the right side of the carrier.
+
+<p float="center">
+  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/coreXY%20cantilever%20X.png" />
+  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/coreXY%20cantilever%20Y.png" />
+</p>
 
 ## Hardware
 
