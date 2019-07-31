@@ -2,7 +2,7 @@
 
 Tlaser is a laser engraver designed as proof of concept of a new motion system, coreXY cantilever. It's called Tlaser because this motion system, and thus this machine, is shaped like a T.  
   
-<img align="right" height="200" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser%20logo.png" />
+<img align="right" height="240" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser%20logo.png" />
 
 ### Main features:
 
@@ -12,6 +12,8 @@ Tlaser is a laser engraver designed as proof of concept of a new motion system, 
 - **Linear guide rails**
 - **Adjustable height at each corner**
 - **3D printed**  
+  
+## [Video of Tlaser in action!](https://youtu.be/NjZCqPt6v3c)
 
 <p float="center">
   <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser_FreeCAD.png" />
@@ -67,7 +69,7 @@ The controller wiring is pretty straight forward, the exceptions being the laser
 
 ## Firmware
 
-An Arduino running Grbl is used to control Tlaser. It uses Grbl version 1.1g with a modified [config.h file](https://github.com/FiCacador/Tlaser/blob/master/Firmware/grbl-v1.1/grbl/config.h) with the configuration and default values that better suit this machine.  
+An Arduino running [Grbl](https://github.com/gnea/grbl) is used to control Tlaser. It uses Grbl version 1.1g with a modified [config.h file](https://github.com/FiCacador/Tlaser/blob/master/Firmware/grbl-v1.1/grbl/config.h) with the configuration and default values that better suit this machine.  
 You can find an hex file and the source code of Grbl for Tlaser [here](https://github.com/FiCacador/Tlaser/tree/master/Firmware).  
 Instructions on how to [flash Grbl to an Arduino](https://github.com/gnea/grbl/wiki/Flashing-Grbl-to-an-Arduino) or alternatively [compile and upload Grbl](https://github.com/gnea/grbl/wiki/Compiling-Grbl) can be found on the [Grbl Wiki](https://github.com/gnea/grbl/wiki).  
 Grbl is distributed under the GPLv3 license and is developed by Sungeun K. Jeon Ph.D.
