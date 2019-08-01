@@ -56,16 +56,22 @@ For a more detailed table with quantities check the [Bill of Materials](https://
 
 ## 3D Printed parts
 
-All [STL files](https://github.com/FiCacador/Tlaser/tree/master/STLs) are already oriented for ease of printing.  
+All [STL files](https://github.com/FiCacador/Tlaser/tree/master/STLs) are already correctly oriented for ease of printing.  
+Dimensional accuracy is very important. This is an assembly of mechanical parts designed to fit tight, the slightest overextrusion will make for a hard time during the assembly.  
 Due to proximity to the stepper motors and laser module, [Laser Mount](https://github.com/FiCacador/Tlaser/blob/master/STLs/Laser%20Mount.stl), [Motor Mount Left](https://github.com/FiCacador/Tlaser/blob/master/STLs/Motor%20Mount%20Left.stl) and [Motor Mount Right](https://github.com/FiCacador/Tlaser/blob/master/STLs/Motor%20Mount%20Right.stl) should be printed with a more heat resistant material, like ABS or PETG.  
 Recommended settings: 0.5 mm line width, 0.2 mm layer height, 2 mm wall thickness, over 15% infill. Some parts require support. [Base Left](https://github.com/FiCacador/Tlaser/blob/master/STLs/Base%20Left.stl) and [Base Right](https://github.com/FiCacador/Tlaser/blob/master/STLs/Base%20Right.stl) are prone to warping, requiring good bed adhesion.  
 Total printing time around 38h. Total filament used approximately 600g.
 
 ## Assembly
 
-To do!  
-Meanwhile, if you like puzzles, check the [assembly CAD file](https://github.com/FiCacador/Tlaser/raw/master/CAD/Tlaser%20Assembly.FCStd) using FreeCAD.  
-The controller wiring is pretty straight forward, the exceptions being the laser TTL connects to the Z+ endstop pins and the red wire is left out when connecting the X and Y endstops.
+An [Exploded Assembly CAD file](https://github.com/FiCacador/Tlaser/raw/master/CAD/Tlaser%20Exploded%20Assembly.FCStd) for [FreeCAD](https://www.freecadweb.org/) with the [Exploded Assembly workbench](https://github.com/JMG1/ExplodedAssembly) added is available to guide the assembly process.  
+Required tools are a set of hex key wrenches, a philips screwdriver, a small flat head screwdriver, a rubber mallet and a wire cutter.  
+The controller wiring is pretty straight forward, the exceptions being the laser TTL connects to the Z+ endstop pins and the red wire is left out when connecting the X and Y endstops. The power supply and 12V laser PCB cables need to be cut so both can be connected to the same respective + and - on the CNC shield.
+
+<p float="center">
+  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser%20Exploded%20Assembly.png" />
+  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Controller%20Assembly%205%20Shield.JPG" />
+</p>
 
 ## Firmware
 
@@ -83,7 +89,7 @@ There are many valid laser CAM software options, use whatever one you like the m
 ## Design
 
 This project was designed using [FreeCAD](https://www.freecadweb.org/). There are more powerful and certainly more user friendly options, but none is actually free (of charge, of licensing, of login) and available for Windows, Mac and Linux.  
-Designed on FreeCAD version 0.18.3 with the added workbenches Fasteners and A2plus.  
+Designed with FreeCAD version 0.18.3 with the added workbenches [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB), [A2plus](https://github.com/kbwbe/A2plus) and [Exploded Assembly](https://github.com/JMG1/ExplodedAssembly).  
 You can find the CAD files for the individual parts and the assembly [here](https://github.com/FiCacador/Tlaser/tree/master/CAD).  
 All the features and sketches of the 3D Printed parts are named, for ease of understanding and editing
 
