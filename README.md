@@ -16,7 +16,7 @@ Tlaser is a laser engraver designed as proof of concept of a new motion system, 
 ## [Video of Tlaser in action!](https://youtu.be/NjZCqPt6v3c)
 
 <p float="center">
-  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser_FreeCAD.png" />
+  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser FreeCAD.jpg" />
   <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser_0.JPG" />
 </p>
 
@@ -56,7 +56,7 @@ For a more detailed table with quantities check the [Bill of Materials](https://
 
 ## 3D Printed parts
 
-All [STL files](https://github.com/FiCacador/Tlaser/tree/master/STLs) are already correctly oriented for ease of printing.  
+All parts are already correctly oriented for ease of printing and available in [STL files](https://github.com/FiCacador/Tlaser/tree/master/STLs) and [AMF files](https://github.com/FiCacador/Tlaser/tree/master/AMFs).  
 Dimensional accuracy is very important. This is an assembly of mechanical parts designed to fit tight, the slightest overextrusion will make for a hard time during the assembly.  
 Due to proximity to the stepper motors and laser module, [Laser Mount](https://github.com/FiCacador/Tlaser/blob/master/STLs/Laser%20Mount.stl), [Motor Mount Left](https://github.com/FiCacador/Tlaser/blob/master/STLs/Motor%20Mount%20Left.stl) and [Motor Mount Right](https://github.com/FiCacador/Tlaser/blob/master/STLs/Motor%20Mount%20Right.stl) should be printed with a more heat resistant material, like ABS or PETG.  
 Recommended settings: 0.5 mm line width, 0.2 mm layer height, 2 mm wall thickness, over 15% infill. Some parts require support. [Base Left](https://github.com/FiCacador/Tlaser/blob/master/STLs/Base%20Left.stl) and [Base Right](https://github.com/FiCacador/Tlaser/blob/master/STLs/Base%20Right.stl) are prone to warping, requiring good bed adhesion.  
@@ -69,7 +69,7 @@ Required tools are a set of hex key wrenches, a philips screwdriver, a small fla
 The controller wiring is pretty straight forward, the exceptions being the laser TTL connects to the Z+ endstop pins and the red wire is left out when connecting the X and Y endstops. The power supply and 12V laser PCB cables need to be cut so both can be connected to the same respective + and - on the CNC shield.
 
 <p float="center">
-  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser%20Exploded%20Assembly.png" />
+  <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Tlaser%20Exploded%20Assembly.jpg" />
   <img width="430" src="https://github.com/FiCacador/Tlaser/raw/master/images/Controller%20Assembly%205%20Shield.JPG" />
 </p>
 
