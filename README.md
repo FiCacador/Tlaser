@@ -64,6 +64,8 @@ Total printing time around 38h. Total filament used approximately 600g.
 
 ## Assembly
 
+### [Video of Tlaser Exploded Assembly on FreeCAD](https://youtu.be/6Z7JV-q1IXA)
+
 An [Exploded Assembly CAD file](https://github.com/FiCacador/Tlaser/raw/master/CAD/Tlaser%20Exploded%20Assembly.FCStd) for [FreeCAD](https://www.freecadweb.org/) with the [Exploded Assembly workbench](https://github.com/JMG1/ExplodedAssembly) added is available to guide the assembly process.  
 Required tools are a set of hex key wrenches, a philips screwdriver, a small flat head screwdriver, a rubber mallet and a wire cutter.  
 The controller wiring is pretty straight forward, the exceptions being the laser TTL connects to the Z+ endstop pins and the red wire is left out when connecting the X and Y endstops. The power supply and 12V laser PCB cables need to be cut so both can be connected to the same respective + and - on the CNC shield.
